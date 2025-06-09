@@ -19,10 +19,11 @@ public class Test_3 : MonoBehaviour
     IEnumerator TrafficLightCycle()
     {
 
+
     Color dimGreen = greenColor * 0.2f;
     Color dimYellow = yellowColor * 0.2f;
     Color dimRed = redColor * 0.2f;
-
+    
         while (true)
         {
             // GREEN ON
