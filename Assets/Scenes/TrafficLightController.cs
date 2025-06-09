@@ -9,12 +9,10 @@ public class Test_3 : MonoBehaviour
 
     void Start()
     {
-        // Get MeshRenderer components
         rend1 = cube1.GetComponent<MeshRenderer>();
         rend2 = cube2.GetComponent<MeshRenderer>();
         rend3 = cube3.GetComponent<MeshRenderer>();
 
-        // Start the light cycle
         StartCoroutine(TrafficLightCycle());
     }
 
